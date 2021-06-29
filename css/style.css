@@ -1,11 +1,12 @@
+
 *{
  box-sizing: border-box;
 }
+
 header{
     background-color: gray;
     margin: 30px;
    
-    /* padding: 10px 80px; */
 }
 header nav {
     
@@ -29,41 +30,28 @@ li:nth-child(2),li:nth-child(3),li:nth-child(4),li:nth-child(5){
     color:honeydew;
     font-weight: bold;
 }
-#section1 {
+main section:nth-child(2) , main section:first-child{
     text-align: center;
-}
-#section2{
-    text-align: center;
-    
+
 }
 
-#section2 img {
+main section:nth-child(2) img {
 padding: 13px;
 
 }
-#section3{
-    
-     /* display: inline-block; */
-   
-    
+main section:last-child{
+
 margin: 0px 280px;
 position:relative; 
-/* width:480px; */
-height:400px;
-    
+height:420px;
 }
+
 
 #right {
     display: inline-block;
     position:absolute;
-   /* top:0; */
-   right:0;
-
-   /* margin-right: 300px; */
-   width:50%;
-  
-   /* display: inline-block;
-    */
+    right:0;
+    width:50%;
     padding-left:30px;
    
 } 
@@ -72,37 +60,40 @@ height:400px;
     left:0;
     display: inline-block;
     width:50%;
-  
     margin-right: 200px;
 
 }
 
 
-#p2{
-    background-color: black;
+main section:last-child article p:nth-child(2){
+    overflow: scroll;
+    width: 450px;
+    height: 344px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+ h2{
+     font-weight: bolde;
+     font-size: 20px;
+ }
+
+ main section:last-child article p:last-child{
+     background-color: black;
     color:white;
     font-size: 16px;
     width: 150px;
     padding:10px;
  
-}
-#p1{
- overflow: scroll;
- width: 450px;
- height: 345px;
- padding-right: 30px;
- font-family:'Courier New', Courier, monospace ;
  }
- 
  footer {
-     position: relative;
-     bottom: 0;
-     background-color: gray;
-margin: 30px;
-height:100px ;
-     /* position: relative; */
- } 
- h2{
-     font-weight: bolde;
-     font-size: 20px;
- }
+    position: relative;
+    bottom: 0;
+    background-color: gray;
+    margin: 30px;
+    height:100px ;
+   
+} 
