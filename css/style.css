@@ -48,7 +48,7 @@ main section:last-child{
 /* width:960px; */
 position:relative; 
 height:420px;
-border: indigo 2px solid;
+/* border: indigo 2px solid; */
 }
 
 
@@ -93,7 +93,7 @@ main section:last-child article p:nth-child(2){
  h2{
      font-weight: bold;
      font-size: 20px;
-    border:blue 3px solid;
+    
     width:450px; 
     position: relative;
     left:0;
