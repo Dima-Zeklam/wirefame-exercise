@@ -56,7 +56,7 @@ height:420px;
    
 } 
 #left{
-    position:absolute;
+    position:relative;
     left:0;
     display: inline-block;
     width:50%;
@@ -76,8 +76,10 @@ main section:last-child article p:nth-child(2){
 }
 
 
+ 
+
  h2{
-     font-weight: bold;
+     font-weight: bolde;
      font-size: 20px;
  }
 
@@ -90,10 +92,10 @@ main section:last-child article p:nth-child(2){
  
  }
  footer {
-    position: relative;
-    bottom: 0;
-    background-color: gray;
-    margin: 30px;
-    height:100px ;
-   
-} 
+     position: relative;
+     bottom: 0;
+     background-color: gray;
+     margin: 30px;
+     height:100px ;
+    
+ } 
