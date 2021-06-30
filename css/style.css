@@ -5,21 +5,25 @@
 
 header{
     background-color: gray;
-    margin: 30px;
+    margin: 20px;
    
 }
 header nav {
     
       position:relative; 
-      padding-top: 20px;
+     
+      /* padding-top: 20px;
       padding-bottom: 20px;
-      padding-left: 220px;
+      padding-left: 220px; */
 }
+
+   
  nav ul li{
-    
+    position: relative;
+    left:420px;
     margin-left: 30px;
    margin-right: 30px; 
-    display: flex;
+ 
     display: inline-block;
  
     
