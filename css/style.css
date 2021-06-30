@@ -103,7 +103,7 @@ main section:last-child article p:nth-child(2){
  }
 
  main section:last-child article p:last-child{
-     background-color: black;
+     /* background-color: black; */
     color:white;
     font-size: 16px;
     width: 150px;
